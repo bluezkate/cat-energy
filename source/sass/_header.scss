@@ -1,0 +1,66 @@
+.header .container {
+    width: 320px;
+    padding: 0;
+}
+
+.navigation__logo {
+    padding: 15px 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid $gray_light;
+}
+
+.logo__link {
+    text-decoration: none;
+}
+
+.logo__img {
+    width: 190px;
+}
+
+.logo__menu-button {
+    width: 20px;
+    height: 20px;
+
+    border: none;
+    background-color: transparent;
+    background-image: url('/img/icon-mobile-menu.svg');
+    background-repeat: no-repeat;
+
+    cursor: pointer;
+}
+
+.navigation__list {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    
+}
+
+.navigation__item {
+    padding: 25px 0;
+
+    text-align: center;
+
+    border-bottom: 1px solid $gray_light;
+}
+
+.navigation__link {
+    width: 100%;
+    height: 100%;
+
+    color: $black;
+    text-decoration: none;
+
+    font-family: Oswald, Arial;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
